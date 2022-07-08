@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link href="./css/bootsrap.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link href="./css/style.css" rel="stylesheet" />
   <title>KTFH</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@
       </a>
       <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
         <li class="nav-item border-top">
-          <a href="/" class="nav-link py-2 border-bottom" aria-current="page" title="" data-bs-toggle="tooltip"
+          <a href="/" class="nav-link active py-2 border-bottom" aria-current="page" title="" data-bs-toggle="tooltip"
             data-bs-placement="right" data-bs-original-title="Home">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path
@@ -65,7 +66,7 @@
 
 
         <li>
-          <a href="/my-patients" class="nav-link py-2 border-bottom active" title="" data-bs-toggle="tooltip"
+          <a href="/my-patients" class="nav-link py-2 border-bottom" title="" data-bs-toggle="tooltip"
             data-bs-placement="right" data-bs-original-title="Customers">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
               <path
@@ -145,215 +146,93 @@
           </div>
         </div>
       </div>
-      <div class="border-bottom p-3 bg-white d-flex justify-content-between">
-        <div class="d-flex align-items-center">
-          <h6 class="font-18 m-0">My Patients</h6>
-        </div>
-        <div class="d-flex align-items-center">
-          <button type="button" class=" btn-outline btn border btn-r" data-bs-toggle="modal"
-            data-bs-target="#staticBackdrop">
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M6.99999 1.66669V9.66669V1.66669Z" fill="#111928" />
-              <path
-                d="M1.66666 9.66669V10.3334C1.66666 10.8638 1.87737 11.3725 2.25244 11.7476C2.62752 12.1226 3.13622 12.3334 3.66666 12.3334H10.3333C10.8638 12.3334 11.3725 12.1226 11.7475 11.7476C12.1226 11.3725 12.3333 10.8638 12.3333 10.3334V9.66669M9.66666 4.33335L6.99999 1.66669M6.99999 1.66669L4.33332 4.33335M6.99999 1.66669V9.66669"
-                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-
-            Export.CSV
-          </button>
-        </div>
+      <div class="border-bottom p-3 bg-white">
+        <h6 class="font-18 m-0">Dashboard</h6>
       </div>
-      <div class="custom-tabs">
-
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs bg-white" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
-              role="tab" aria-controls="home" aria-selected="true">Diabetes</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-              role="tab" aria-controls="profile" aria-selected="false">Vitals</button>
-          </li>
-
-        </ul>
-
-        <!-- Tab panes -->
-        <div class="tab-content p-4">
-          <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <div class="p-2">
-              <div class="table-responsive">
-                <table id='' class="table custom-table mb-0 table-borderless">
-                  <!-- HEADING FORMATION -->
-                  <tr>
-                    <th class="p-0">
-                      <img src="./img/patients/16.svg" />
-                    </th>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/9.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/10.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/11.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/12.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/13.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/14.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/15.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/16.svg" />
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="bg-white d-flex py-3 align-items-center">
-                <img src="./img/chevron-left.png" />
-                <img src="./img/chevron-right.png" />
-                <div class="f-bold">Show <b>1-15</b> of <b>987</b></div>
-              </div>
-            </div>
+      <div class="p-4">
+        <h3 class="font-24 mb-3">Participant Analytics</h3>
+        <div class="row">
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/1.svg" class="img-fluid" />
           </div>
-          <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <div class="p-2">
-              <div class="table-responsive">
-                <table id='' class="table custom-table mb-0 table-borderless">
-                  <!-- HEADING FORMATION -->
-                  <tr>
-                    <th class="p-0">
-                      <img src="./img/patients/1.svg" />
-                    </th>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/2.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/3.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/4.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/5.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/6.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/7.svg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="py-2 clickable-row" data-href="/investigations">
-                      <img src="./img/patients/8.svg" />
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="bg-white d-flex py-3 align-items-center">
-                <img src="./img/chevron-left.png" />
-                <img src="./img/chevron-right.png" />
-                <div class="f-bold">Show <b>1-15</b> of <b>987</b></div>
-              </div>
-            </div>
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/2.svg" class="img-fluid" />
+          </div>
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/3.svg" class="img-fluid" />
+          </div>
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/4.svg" class="img-fluid" />
           </div>
         </div>
       </div>
-
+      <div class="p-4">
+        <h3 class="font-24 mb-3">Vital Analytics</h3>
+        <div class="row mb-4">
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/5.svg" class="img-fluid" />
+          </div>
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/6.svg" class="img-fluid" />
+          </div>
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/7.svg" class="img-fluid" />
+          </div>
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/8.svg" class="img-fluid" />
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/9.svg" class="img-fluid" />
+          </div>
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/10.svg" class="img-fluid" />
+          </div>
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/11.svg" class="img-fluid" />
+          </div>
+          <div class="col-md-3 col-6 cursor-pointer">
+            <img src="./img/home/12.svg" class="img-fluid" />
+          </div>
+        </div>
+        <h3 class="font-24 mb-3">Questionnaire Analytics</h3>
+        <div class="row mb-4">
+          <div class=" col-6 cursor-pointer">
+            <img src="./img/home/13.svg" class="img-fluid" />
+          </div>
+          <div class="col-6 cursor-pointer">
+            <img src="./img/home/14.svg" class="img-fluid" />
+          </div>
+        </div>
+        <h3 class="font-24 mb-3">Alert Analytics</h3>
+        <div class="row mb-5">
+          <div class=" col-6 cursor-pointer">
+            <img src="./img/home/15.svg" class="img-fluid" />
+          </div>
+          <div class="col-6 cursor-pointer">
+            <img src="./img/home/16.svg" class="img-fluid" />
+          </div>
+        </div>
+        <div class="h-200"></div>
+      </div>
     </div>
   </div>
   <!-- Optional JavaScript; choose one of the two! -->
-  <script src="./js/jquery.js" type="text/javascript"></script>
+
   <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="./js/bootstrap.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script> -->
-
-
-  <div class="modal fade custom-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered mw-724">
-      <div class="modal-content">
-        <div class="modal-header p-0">
-          <h5 class="modal-title mb-3" id="staticBackdropLabel">Enroll Participant</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body px-0">
-          <div class="row">
-            <div class="col-md-6 form-group">
-              <label>Participant Name*</label>
-              <input class="form-control" />
-            </div>
-            <div class="col-md-6 form-group">
-              <label>Contact</label>
-              <input class="form-control" />
-            </div>
-            <div class="col-md-12 form-group">
-              <label>Email</label>
-              <input class="form-control" />
-            </div>
-            <div class="col-md-6 form-group">
-              <label>Staff</label>
-              <input class="form-control" />
-            </div>
-            <div class="col-md-6 form-group">
-              <label>Group</label>
-              <input class="form-control" />
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer justify-content-start pb-0 px-0">
-          <button type="button" class="btn btn-primary btn-r">Save</button>
-
-          <button type="button" class="btn btn-outline" data-bs-dismiss="modal">Cancel</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="./js/table.js" type="text/javascript"> </script>
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
