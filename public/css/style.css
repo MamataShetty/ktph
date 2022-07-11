@@ -245,20 +245,31 @@ html body .btn-primary {
   height: 200px;
 }
 
+.custom-tabs.in-history .accordion-button {
+  font-size: 20px;
+}
+
+.investigation-table .custom-table {
+  margin-bottom: 30px;
+}
+.investigation-table .custom-table tr td,
+.investigation-table .custom-table tr th {
+  text-align: center;
+  font-size: 15px;
+}
+.investigation-table .custom-table tr td {
+  font-size: 14px;
+}
+.investigation-table th {
+  background-color: #e5e7eb;
+}
+
 .custom-table .clickable-row {
   cursor: pointer;
 }
 .custom-table a {
   color: #212529;
   text-decoration: none;
-}
-.custom-table tr,
-.custom-table th {
-  text-align: center;
-}
-.custom-table tr th:first-child,
-.custom-table tr td:first-child {
-  text-align: left;
 }
 .custom-table th {
   background-color: #f3f4f6;

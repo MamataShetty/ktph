@@ -233,6 +233,30 @@ html body {
 .h-200 {
   height: 200px;
 }
+
+.custom-tabs.in-history {
+  .accordion-button {
+    font-size: 20px;
+  }
+}
+
+.investigation-table {
+  .custom-table {
+    margin-bottom: 30px;
+  }
+  .custom-table tr td,
+  .custom-table tr th {
+    text-align: center;
+    font-size: 15px;
+  }
+  .custom-table tr td {
+    // font-weight: 500;
+    font-size: 14px;
+  }
+  th {
+    background-color: #e5e7eb;
+  }
+}
 .custom-table {
   .clickable-row {
     cursor: pointer;
@@ -241,14 +265,6 @@ html body {
   a {
     color: #212529;
     text-decoration: none;
-  }
-  tr,
-  th {
-    text-align: center;
-  }
-  tr th:first-child,
-  tr td:first-child {
-    text-align: left;
   }
   th {
     background-color: #f3f4f6;
