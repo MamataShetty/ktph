@@ -252,6 +252,14 @@ html body .btn-primary {
   color: #212529;
   text-decoration: none;
 }
+.custom-table tr,
+.custom-table th {
+  text-align: center;
+}
+.custom-table tr th:first-child,
+.custom-table tr td:first-child {
+  text-align: left;
+}
 .custom-table th {
   background-color: #f3f4f6;
   padding: 15px;

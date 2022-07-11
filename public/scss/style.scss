@@ -242,6 +242,14 @@ html body {
     color: #212529;
     text-decoration: none;
   }
+  tr,
+  th {
+    text-align: center;
+  }
+  tr th:first-child,
+  tr td:first-child {
+    text-align: left;
+  }
   th {
     background-color: #f3f4f6;
     padding: 15px;
