@@ -509,5 +509,29 @@ html body .btn-primary {
 .n-journey .accordion-button p {
   color: #1c64f2;
 }
+#i-patient-red-card{
+  background-color:#FFFFFF ; 
+  border: solid 1px #E5E7EB; 
+  border-radius: 8px;
+  border-left:#F05252 6px solid ;
+  min-width: 379px;
+  cursor: pointer;
+}
+#i-patient-yellow-card{
+  background-color:#FFFFFF ; 
+  border: solid 1px #E5E7EB; 
+  border-radius: 8px;
+  border-left:#FACA15 6px solid ;
+  min-width: 379px;
+  cursor: pointer;
+}
+#i-patient-green-card{
+  background-color:#FFFFFF ; 
+  border: solid 1px #E5E7EB; 
+  border-radius: 8px;
+  border-left:#31C48D 6px solid ;
+  min-width: 379px;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
